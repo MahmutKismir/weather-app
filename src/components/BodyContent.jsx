@@ -6,7 +6,7 @@ import { TiWeatherSunny } from 'react-icons/ti'
 import { TiWeatherWindyCloudy } from 'react-icons/ti'
 
 const BodyContent = ({data}) => {
-     console.log(data)
+    
      return ( 
           <div className="w-full h-full flex flex-col justify-center items-center gap-y-3">
                <h1 className="lg:text-6xl md:text-5xl sm:text-4xl  font-semibold text-white">{data.name}</h1>
