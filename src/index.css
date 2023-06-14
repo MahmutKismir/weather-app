@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 640px) {
+     .min {       
+       background-image: url(/image/sunrise.jpeg);
+       object-fit: contain;       
+       background-position: center;       
+     }
+   }
